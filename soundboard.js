@@ -1,0 +1,20 @@
+var button1 = document.getElementById('first');
+
+button1.addEventListener('mouseenter', playBell);
+button2.addEventListener('mouseenter', playRegister);
+button3.addEventListener('mouseenter', playCymbals);
+
+function playBell() {
+    var audio_bell = new Audio("boxing_bell.wav");
+    audio_bell.play();
+}
+
+function playRegister() {
+    var audio_reg = new Audio("cash_register_x.wav");
+    audio_reg.play();
+}
+
+function playCymbals() {
+    var audio_cym = new Audio("cymbals.wav");
+    audio_cym.play();
+}
