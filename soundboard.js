@@ -1,4 +1,6 @@
 var button1 = document.getElementById('first');
+var button2 = document.getElementById('second');
+var button3 = document.getElementById('third');
 
 button1.addEventListener('mouseenter', playBell);
 button2.addEventListener('mouseenter', playRegister);
