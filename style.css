@@ -1,0 +1,11 @@
+body {
+    background-color: #ccc;
+    font-family: Helvetica, sans-serif;
+    color:gray;
+    margin-top: 200px;
+}
+
+h1 {
+    margin: 15px 0;
+    color: black;
+}
