@@ -9,3 +9,10 @@ h1 {
     margin: 15px 0;
     color: black;
 }
+
+.img-container {
+    height: 50px;
+    width: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
