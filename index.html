@@ -8,26 +8,28 @@
     <title>Soundboard</title>
 </head>
 <body>
+    <div class="card">
+        <h1>Pick any of the sounds below!</h1>
 
-    <h1>Pick any of the sounds below!</h1>
+        <img src="soundicon.png" alt="Audio Icon">
+        <div class="img-container"></div>
+    
+        <button id="first">Bell</button>
+        <button id="second">Cash Register</button>
+        <button id="third">Cymbals</button>
+    
+        <audio>
+            <source src="boxing_bell.wav" type="audio/wav">
+        </audio>
+        <audio>
+            <source src="cash_register_x.wav" type="audio/wav">
+        </audio>
+        <audio>
+            <source src="cymbals.wav" type="audio/wav">
+        </audio>
 
-    <img src="soundicon.png" alt="Audio Icon">
-    <div class="img-container"></div>
-
-    <button id="first">Bell</button>
-    <button id="second">Cash Register</button>
-    <button id="third">Cymbals</button>
-
-    <audio>
-        <source src="boxing_bell.wav" type="audio/wav">
-    </audio>
-    <audio>
-        <source src="cash_register_x.wav" type="audio/wav">
-    </audio>
-    <audio>
-        <source src="cymbals.wav" type="audio/wav">
-    </audio>
-
+        <h2>The power of Javascript</h2>
+    </div>
     <script src="soundboard.js"></script>
 </body>
 </html>
